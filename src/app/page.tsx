@@ -1,5 +1,6 @@
 // app/page.jsx ou pages/index.js
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://vitebutnottoomuch.com"),
@@ -136,7 +137,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition">
-              <img
+              <Image
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/article1.jpg"
                 alt="Préparer son trajet en ville"
@@ -170,7 +171,7 @@ export default function Home() {
             </div>
             {/* Répète ce bloc pour d’autres articles */}
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition">
-              <img
+              <Image
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/article2.jpg"
                 alt="Règles de priorité 2025"
@@ -203,7 +204,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition">
-              <img
+              <Image
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/article3.jpg"
                 alt="Sécurité des piétons"
