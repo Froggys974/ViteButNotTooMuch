@@ -1,6 +1,7 @@
 // app/page.tsx
-import type { Metadata } from "next";
+// app/page.jsx ou pages/index.js
 import Image from "next/image";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://vitebutnottoomuch.com"),
@@ -139,10 +140,10 @@ export default function Home() {
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition">
               <Image
                 className="rounded-t-lg h-48 w-full object-cover"
-                src="/img/article1.jpg"
+                src="/img/preparer-trajet-ville.webp"
                 alt="Préparer son trajet en ville"
-                width={24}
-                height={24}
+                width={800}
+                height={400}
               />
               <div className="p-5">
                 <a href="/blog/preparer-son-trajet-ville">
@@ -175,10 +176,10 @@ export default function Home() {
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition">
               <Image
                 className="rounded-t-lg h-48 w-full object-cover"
-                src="/img/article2.jpg"
+                src="/img/regles-priorite-2025.webp"
                 alt="Règles de priorité 2025"
-                width={24}
-                height={24}
+                width={800}
+                height={400}
               />
               <div className="p-5">
                 <a href="/blog/regles-priorite-2025">
@@ -210,10 +211,10 @@ export default function Home() {
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition">
               <Image
                 className="rounded-t-lg h-48 w-full object-cover"
-                src="/img/article3.jpg"
+                src="/img/securite-pietons.webp"
                 alt="Sécurité des piétons"
-                width={24}
-                height={24}
+                width={800}
+                height={400}
               />
               <div className="p-5">
                 <a href="/blog/securite-pietons">
