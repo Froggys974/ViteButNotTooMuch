@@ -234,16 +234,19 @@ export default function Contact() {
             </form>
           </div>
 
-          <div className="mt-12 rounded-xl overflow-hidden h-80 shadow-md">
+          <div
+            className="mt-12 rounded-xl overflow-hidden h-80 shadow-md"
+            data-lazy-container
+          >
             <iframe
+              className="iframe-map"
               title="Carte de notre emplacement"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.6874532003287!2d2.3867714!3d48.8498708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6728f7573703d%3A0x5e134f63bd4f8c8b!2s242%20Rue%20du%20Faubourg%20Saint-Antoine%2C%2075012%20Paris!5e0!3m2!1sfr!2sfr!4v1713361459381!5m2!1sfr!2sfr"
               width="100%"
               height="100%"
-              style={{ border: 0 }}
               allowFullScreen={true}
-              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              data-lazy="true"
             ></iframe>
           </div>
 
