@@ -141,6 +141,8 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/article1.jpg"
                 alt="Préparer son trajet en ville"
+                width={24}
+                height={24}
               />
               <div className="p-5">
                 <a href="/blog/preparer-son-trajet-ville">
@@ -175,6 +177,8 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/article2.jpg"
                 alt="Règles de priorité 2025"
+                width={24}
+                height={24}
               />
               <div className="p-5">
                 <a href="/blog/regles-priorite-2025">
@@ -208,6 +212,8 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/article3.jpg"
                 alt="Sécurité des piétons"
+                width={24}
+                height={24}
               />
               <div className="p-5">
                 <a href="/blog/securite-pietons">
