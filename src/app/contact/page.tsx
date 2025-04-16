@@ -213,7 +213,8 @@ export default function Contact() {
                   htmlFor="privacy"
                   className="ml-2 block text-sm text-gray-500"
                 >
-                  J'accepte que mes données soient traitées conformément à la{" "}
+                  J&apos;accepte que mes données soient traitées conformément à
+                  la{" "}
                   <a
                     href="/politique-confidentialite"
                     className="text-blue-600 hover:underline"
