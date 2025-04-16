@@ -1,4 +1,4 @@
-// app/page.jsx ou pages/index.js
+// app/page.tsx
 import type { Metadata } from "next";
 import Image from "next/image";
 
