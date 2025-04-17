@@ -29,7 +29,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...[
       { url: baseUrl, priority: 1.0 }, // Accueil - priorité maximale
       { url: `${baseUrl}/blog`, priority: 0.9 }, // Section blog
-      { url: `${baseUrl}/contact`, priority: 0.7 } // Contact
+      { url: `${baseUrl}/contact`, priority: 0.7 }, // Contact
+      { url: `${baseUrl}/histoire`, priority: 0.7 }, // Histoire
+      { url: `${baseUrl}/mentions-legales`, priority: 0.5 }, // Mentions légales
+      { url: `${baseUrl}/politique-confidentialite`, priority: 0.5 } // Politique de confidentialité
     ].map(page => ({
       ...page,
       lastModified: new Date(),
