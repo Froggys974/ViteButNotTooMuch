@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "ViteButNotTooMuch",
     images: [
       {
-        url: "https://vitebutnottoomuch.com/img/og-image.webp",
+        url: "https://vitebutnottoomuch.com/img/preparer-trajet-ville.webp",
         width: 1200,
         height: 630,
         alt: "Préparer son trajet en ville",

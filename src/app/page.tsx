@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "ViteButNotTooMuch",
     images: [
       {
-        url: "/public/img/Logo.svg",
+        url: "https://vitebutnottoomuch.com/img/og-image-home.png",
         width: 1200,
         height: 630,
         alt: "ViteButNotTooMuch – Sécurité routière à Paris",
@@ -42,7 +42,11 @@ export const metadata: Metadata = {
     title: "ViteButNotTooMuch – Sécurité routière à Paris",
     description:
       "Conseils, prévention, actualités et guides pratiques pour une route plus sûre à Paris.",
-    images: ["/public/img/Logo.svg"],
+    images: ["https://vitebutnottoomuch.com/img/og-image-home.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -53,7 +57,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="bg-white border-b border-gray-200">
           <div className="container mx-auto px-4 py-24 flex flex-col items-center text-center">
-            <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
               ViteButNotTooMuch
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-gray-700 mb-6">
