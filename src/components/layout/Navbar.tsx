@@ -15,8 +15,8 @@ export default function Navbar() {
           <Image
             src="/img/Logo.svg"
             alt="Logo"
-            width={48}
-            height={48}
+            width={50}
+            height={50}
             loading="lazy"
           />
           <span className="text-xl font-semibold text-gray-900 tracking-tight">
@@ -33,6 +33,9 @@ export default function Navbar() {
           </Link>
           <Link href="/contact" className="hover:text-blue-600 transition">
             Contact
+          </Link>
+          <Link href="/histoire" className="hover:text-blue-600 transition">
+            Notre histoire
           </Link>
           <Link
             href="/mentions-legales"
@@ -52,10 +55,10 @@ export default function Navbar() {
           >
             {/* Instagram SVG */}
             <Image
-              src="img/instagram.svg"
+              src="/icons/instagram.svg"
               alt="Instagram"
-              width={24}
-              height={24}
+              width={22}
+              height={22}
               loading="lazy"
             />
           </a>
@@ -68,10 +71,10 @@ export default function Navbar() {
           >
             {/* LinkedIn SVG */}
             <Image
-              src="img/linkedin.svg"
+              src="/icons/linkedin.svg"
               alt="LinkedIn"
-              width={24}
-              height={24}
+              width={25}
+              height={25}
               loading="lazy"
             />
           </a>
@@ -84,10 +87,10 @@ export default function Navbar() {
           >
             {/* TikTok SVG */}
             <Image
-              src="img/tiktok.svg"
+              src="/icons/tiktok.svg"
               alt="TikTok"
-              width={24}
-              height={24}
+              width={20}
+              height={20}
               loading="lazy"
             />
           </a>
@@ -100,10 +103,10 @@ export default function Navbar() {
           >
             {/* X (Twitter) SVG */}
             <Image
-              src="img/x.svg"
+              src="/icons/x.svg"
               alt="X (Twitter)"
-              width={24}
-              height={24}
+              width={20}
+              height={20}
               loading="lazy"
             />
           </a>
@@ -167,6 +170,12 @@ export default function Navbar() {
             Contact
           </Link>
           <Link
+            href="/histoire"
+            className="block hover:text-blue-600 transition"
+          >
+            Notre histoire
+          </Link>
+          <Link
             href="/mentions-legales"
             className="block hover:text-blue-600 transition"
           >
@@ -183,10 +192,10 @@ export default function Navbar() {
             >
               {/* Instagram SVG */}
               <Image
-                src="img/instagram.svg"
+                src="/icons/instagram.svg"
                 alt="Instagram"
-                width={24}
-                height={24}
+                width={22}
+                height={22}
                 loading="lazy"
               />
             </a>
@@ -199,10 +208,10 @@ export default function Navbar() {
             >
               {/* LinkedIn SVG */}
               <Image
-                src="img/linkedin.svg"
+                src="/icons/linkedin.svg"
                 alt="LinkedIn"
-                width={24}
-                height={24}
+                width={25}
+                height={25}
                 loading="lazy"
               />
             </a>
@@ -215,10 +224,10 @@ export default function Navbar() {
             >
               {/* TikTok SVG */}
               <Image
-                src="img/tiktok.svg"
+                src="/icons/tiktok.svg"
                 alt="TikTok"
-                width={24}
-                height={24}
+                width={20}
+                height={20}
                 loading="lazy"
               />
             </a>
@@ -231,10 +240,10 @@ export default function Navbar() {
             >
               {/* X (Twitter) SVG */}
               <Image
-                src="img/x.svg"
+                src="/icons/x.svg"
                 alt="X (Twitter)"
-                width={24}
-                height={24}
+                width={20}
+                height={20}
                 loading="lazy"
               />
             </a>
