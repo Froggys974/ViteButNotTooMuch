@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://vitebutnottoofast.com/sitemap.xml',
-    host: 'https://vitebutnottoofast.com',
+    sitemap: 'https://vitebutnottoomuch.com/sitemap.xml',
+    host: 'https://vitebutnottoomuch.com',
   };
 }
