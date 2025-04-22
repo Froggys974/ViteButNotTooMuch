@@ -17,7 +17,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="hover:text-blue-900 transition"
             >
-              202 Rue du Faubourg Saint-Antoine, Paris
+              242 Rue du Faubourg Saint-Antoine, Paris
             </a>
           </div>
           <div>
