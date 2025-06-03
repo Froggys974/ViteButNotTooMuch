@@ -42,6 +42,7 @@ export default function SecuritePietons() {
         <Image
           src="/img/securite-pietons.webp"
           alt="Sécurité des piétons à Paris"
+          title="Sécurité des piétons à Paris"
           className="w-full rounded-lg mb-8"
           width={1200}
           height={630}

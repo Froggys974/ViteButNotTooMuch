@@ -46,6 +46,31 @@ const articles = [
     image: "/img/securite-pietons.webp",
     date: "2025-03-15",
   },
+  {
+    slug: "securite-routiere-paris-2025",
+    title:
+      "La sécurité routière à Paris : enjeux, innovations et bonnes pratiques pour 2025",
+    excerpt:
+      "Découvrez un dossier complet sur la sécurité routière à Paris en 2025 : chiffres, nouveaux dispositifs, innovations, conseils pratiques et enjeux pour tous les usagers.",
+    image: "/img/securite-routiere-paris-2025.webp",
+    date: "2025-06-03",
+  },
+  {
+    slug: "mobilites-douces-paris",
+    title: "Mobilités douces à Paris : comment cohabiter en sécurité ?",
+    excerpt:
+      "Découvrez comment piétons, cyclistes, trottinettes et automobilistes peuvent partager la route à Paris en toute sécurité. Conseils, réglementations et innovations pour une mobilité apaisée.",
+    image: "/img/mobilites-douces-paris.webp",
+    date: "2025-06-03",
+  },
+  {
+    slug: "accidents-route-paris-2025",
+    title: "Accidents de la route à Paris : comprendre, prévenir, agir",
+    excerpt:
+      "Analyse des causes d’accidents à Paris, conseils de prévention, évolutions récentes et témoignages pour une route plus sûre en 2025.",
+    image: "/img/accidents-route-paris.webp",
+    date: "2025-06-10",
+  },
   // ... Ajoute d'autres articles ici
 ];
 
@@ -66,9 +91,11 @@ export default function BlogPage() {
                 <Image
                   src={article.image}
                   alt={article.title}
+                  title={article.title}
                   className="h-48 w-full object-cover hover:scale-105 transition-transform duration-300"
                   width={600}
                   height={400}
+                  loading="lazy"
                 />
               </Link>
               <div className="p-6 flex-1 flex flex-col">

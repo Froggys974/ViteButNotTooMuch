@@ -79,8 +79,10 @@ export function Footer() {
               <Image
                 src="/icons/instagram.svg"
                 alt="Instagram"
+                title="Instagram"
                 width={22}
                 height={22}
+                loading="lazy"
               />
             </a>
             <a
@@ -93,8 +95,10 @@ export function Footer() {
               <Image
                 src="/icons/linkedin.svg"
                 alt="LinkedIn"
+                title="LinkedIn"
                 width={25}
                 height={25}
+                loading="lazy"
               />
             </a>
             <a
@@ -107,8 +111,10 @@ export function Footer() {
               <Image
                 src="/icons/tiktok.svg"
                 alt="TikTok"
+                title="TikTok"
                 width={20}
                 height={20}
+                loading="lazy"
               />
             </a>
             <a
@@ -121,8 +127,10 @@ export function Footer() {
               <Image
                 src="/icons/x.svg"
                 alt="X (Twitter)"
+                title="X (Twitter)"
                 width={20}
                 height={20}
+                loading="lazy"
               />
             </a>
           </div>
