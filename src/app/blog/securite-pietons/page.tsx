@@ -3,8 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Sécurité des piétons : les bons gestes et les nouveautés à Paris | ViteButNotTooMuch",
+  title: "Sécurité des piétons : les bons gestes et les nouveautés à Paris",
   description:
     "Découvrez les nouvelles mesures pour la sécurité des piétons à Paris : suppression des places de stationnement, décompteurs de temps, zones apaisées et conseils pour traverser en toute sécurité.",
   alternates: {

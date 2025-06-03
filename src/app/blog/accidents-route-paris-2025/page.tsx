@@ -3,8 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title:
-    "Accidents de la route à Paris : comprendre, prévenir, agir | ViteButNotTooMuch",
+  title: "Accidents de la route à Paris : comprendre, prévenir, agir",
   description:
     "Analyse des causes d’accidents à Paris, conseils de prévention, évolutions récentes et témoignages pour une route plus sûre en 2025.",
   alternates: {

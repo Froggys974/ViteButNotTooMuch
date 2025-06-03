@@ -47,9 +47,11 @@ export default function Histoire() {
         <Image
           src="/img/Logo.svg"
           alt="Logo ViteButNotTooMuch"
+          title="Logo ViteButNotTooMuch"
           className="w-40 h-40 mx-auto mb-8"
           width={160}
           height={160}
+          loading="lazy"
         />
 
         <h2 className="text-2xl font-semibold mb-4 text-gray-800">

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title:
-    "La sécurité routière à Paris : enjeux, innovations et bonnes pratiques pour 2025 | ViteButNotTooMuch",
+    "La sécurité routière à Paris : enjeux, innovations et bonnes pratiques pour 2025",
   description:
     "Découvrez un dossier complet sur la sécurité routière à Paris en 2025 : chiffres, nouveaux dispositifs, innovations, conseils pratiques et enjeux pour tous les usagers.",
   alternates: {
@@ -59,6 +59,7 @@ export default function SecuriteRoutiereParis2025() {
         <Image
           src="/img/securite-routiere-paris-2025.webp"
           alt="Sécurité routière à Paris 2025"
+          title="Sécurité routière à Paris 2025"
           width={1200}
           height={630}
           className="w-full rounded-lg mb-8"
