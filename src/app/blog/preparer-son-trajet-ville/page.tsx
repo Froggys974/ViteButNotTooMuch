@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Comment bien préparer son trajet en ville ? | ViteButNotTooMuch",
+  title: "Comment bien préparer son trajet en ville ?",
   description:
     "Découvrez nos conseils pratiques pour anticiper les dangers urbains et circuler en toute sécurité à Paris. Préparez vos trajets sereinement !",
   alternates: {
@@ -40,6 +40,7 @@ export default function PreparerSonTrajetVille() {
         <Image
           src="/img/preparer-trajet-ville.webp"
           alt="Préparer son trajet en ville"
+          title="Préparer son trajet en ville"
           className="w-full rounded-lg mb-8"
           width={1200}
           height={630}

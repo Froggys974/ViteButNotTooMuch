@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description:
     "ViteButNotTooMuch, blog expert sur la sécurité routière à Paris : conseils, prévention, actualités, guides pratiques et ressources pour une route plus sûre.",
   keywords: [
+    "ViteButNotTooMuch",
     "sécurité routière",
     "Paris",
     "prévention",
@@ -146,8 +147,10 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/preparer-trajet-ville.webp"
                 alt="Préparer son trajet en ville"
+                title="Préparer son trajet en ville"
                 width={800}
                 height={400}
+                loading="lazy"
               />
               <div className="p-5">
                 <a href="/blog/preparer-son-trajet-ville">
@@ -182,8 +185,10 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/regles-priorite-2025.webp"
                 alt="Règles de priorité 2025"
+                title="Nouvelles règles de priorité 2025"
                 width={800}
                 height={400}
+                loading="lazy"
               />
               <div className="p-5">
                 <a href="/blog/regles-priorite-2025">
@@ -217,8 +222,10 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/securite-pietons.webp"
                 alt="Sécurité des piétons"
+                title="Sécurité des piétons à Paris"
                 width={800}
                 height={400}
+                loading="lazy"
               />
               <div className="p-5">
                 <a href="/blog/securite-pietons">

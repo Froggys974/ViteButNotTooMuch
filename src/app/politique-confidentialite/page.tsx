@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité | ViteButNotTooMuch",
+  title: "Politique de confidentialité",
   description:
     "Découvrez notre politique de confidentialité conforme au RGPD, expliquant comment nous collectons, utilisons et protégeons vos données personnelles sur ViteButNotTooMuch.",
   alternates: {

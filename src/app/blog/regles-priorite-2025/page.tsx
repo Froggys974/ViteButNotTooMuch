@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Les nouvelles règles de priorité en 2025 | ViteButNotTooMuch",
+  title: "Les nouvelles règles de priorité en 2025",
   description:
     "Découvrez toutes les nouveautés du code de la route et des règles de priorité en 2025 : limitation à 30 km/h, ZFE, équipements obligatoires, nouvelles sanctions et formation renforcée.",
   alternates: {
@@ -41,6 +41,7 @@ export default function ReglesPriorite2025() {
         <Image
           src="/img/regles-priorite-2025.webp"
           alt="Nouvelles règles de priorité en 2025"
+          title="Nouvelles règles de priorité en 2025"
           className="w-full rounded-lg mb-8"
           width={1200}
           height={630}

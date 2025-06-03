@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mentions légales | ViteButNotTooMuch",
+  title: "Mentions légales",
   description:
     "Mentions légales du site ViteButNotTooMuch : éditeur, hébergeur, propriété intellectuelle, politique de confidentialité et contact.",
   alternates: {

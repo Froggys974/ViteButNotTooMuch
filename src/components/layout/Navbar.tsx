@@ -15,6 +15,7 @@ export default function Navbar() {
           <Image
             src="/img/Logo.svg"
             alt="Logo"
+            title="ViteButNotTooMuch"
             width={50}
             height={50}
             loading="lazy"
@@ -57,6 +58,7 @@ export default function Navbar() {
             <Image
               src="/icons/instagram.svg"
               alt="Instagram"
+              title="Instagram"
               width={22}
               height={22}
               loading="lazy"
@@ -73,6 +75,7 @@ export default function Navbar() {
             <Image
               src="/icons/linkedin.svg"
               alt="LinkedIn"
+              title="LinkedIn"
               width={25}
               height={25}
               loading="lazy"
@@ -89,6 +92,7 @@ export default function Navbar() {
             <Image
               src="/icons/tiktok.svg"
               alt="TikTok"
+              title="TikTok"
               width={20}
               height={20}
               loading="lazy"
@@ -105,6 +109,7 @@ export default function Navbar() {
             <Image
               src="/icons/x.svg"
               alt="X (Twitter)"
+              title="X (Twitter)"
               width={20}
               height={20}
               loading="lazy"
@@ -112,16 +117,16 @@ export default function Navbar() {
           </a>
         </div>
         {/* Infos contact desktop */}
-        <div className="hidden md:flex flex-col items-end text-xs text-gray-400 leading-tight ml-6">
+        <div className="hidden md:flex flex-col items-end text-xs text-gray-900 leading-tight ml-6 gap-2.5">
           <a
             href="https://maps.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x47e6738fdc465377:0xa74093d277f6119"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-600 transition"
+            className="hover:text-blue-700 transition"
           >
             242 Rue du Faubourg Saint-Antoine, Paris
           </a>
-          <a href="tel:0199004678" className="hover:text-blue-600 transition">
+          <a href="tel:0199004678" className="hover:text-blue-700 transition">
             01 99 00 46 78
           </a>
         </div>
@@ -194,6 +199,7 @@ export default function Navbar() {
               <Image
                 src="/icons/instagram.svg"
                 alt="Instagram"
+                title="Instagram"
                 width={22}
                 height={22}
                 loading="lazy"
@@ -210,6 +216,7 @@ export default function Navbar() {
               <Image
                 src="/icons/linkedin.svg"
                 alt="LinkedIn"
+                title="LinkedIn"
                 width={25}
                 height={25}
                 loading="lazy"
@@ -226,6 +233,7 @@ export default function Navbar() {
               <Image
                 src="/icons/tiktok.svg"
                 alt="TikTok"
+                title="TikTok"
                 width={20}
                 height={20}
                 loading="lazy"
@@ -242,6 +250,7 @@ export default function Navbar() {
               <Image
                 src="/icons/x.svg"
                 alt="X (Twitter)"
+                title="X (Twitter)"
                 width={20}
                 height={20}
                 loading="lazy"

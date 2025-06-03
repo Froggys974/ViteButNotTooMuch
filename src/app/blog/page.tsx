@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Blog – ViteButNotTooMuch | Sécurité routière à Paris",
+  title: "Blog – Sécurité routière à Paris",
   description:
-    "Retrouvez tous nos articles sur la sécurité routière, la prévention et les conseils pour circuler en toute sécurité à Paris.",
+    "ViteButNotTooMuch, le blog sécurité routière à Paris : conseils, prévention, actualités et guides pratiques pour tous.",
   alternates: {
     canonical: "https://vitebutnottoomuch.com/blog",
   },
@@ -36,7 +36,7 @@ const articles = [
     excerpt:
       "Mettez-vous à jour sur les dernières évolutions du code de la route à Paris et en France.",
     image: "/img/regles-priorite-2025.webp",
-    date: "2025-03-28",
+    date: "2025-04-16",
   },
   {
     slug: "securite-pietons",
@@ -44,7 +44,32 @@ const articles = [
     excerpt:
       "Nos conseils pour protéger les piétons et partager la route en toute sécurité.",
     image: "/img/securite-pietons.webp",
-    date: "2025-03-15",
+    date: "2025-04-16",
+  },
+  {
+    slug: "securite-routiere-paris-2025",
+    title:
+      "La sécurité routière à Paris : enjeux, innovations et bonnes pratiques pour 2025",
+    excerpt:
+      "Découvrez un dossier complet sur la sécurité routière à Paris en 2025 : chiffres, nouveaux dispositifs, innovations, conseils pratiques et enjeux pour tous les usagers.",
+    image: "/img/securite-routiere-paris-2025.webp",
+    date: "2025-06-03",
+  },
+  {
+    slug: "mobilites-douces-paris",
+    title: "Mobilités douces à Paris : comment cohabiter en sécurité ?",
+    excerpt:
+      "Découvrez comment piétons, cyclistes, trottinettes et automobilistes peuvent partager la route à Paris en toute sécurité. Conseils, réglementations et innovations pour une mobilité apaisée.",
+    image: "/img/mobilites-douces-paris.webp",
+    date: "2025-06-03",
+  },
+  {
+    slug: "accidents-route-paris-2025",
+    title: "Accidents de la route à Paris : comprendre, prévenir, agir",
+    excerpt:
+      "Analyse des causes d’accidents à Paris, conseils de prévention, évolutions récentes et témoignages pour une route plus sûre en 2025.",
+    image: "/img/accidents-route-paris.webp",
+    date: "2025-06-03",
   },
   // ... Ajoute d'autres articles ici
 ];
@@ -66,6 +91,7 @@ export default function BlogPage() {
                 <Image
                   src={article.image}
                   alt={article.title}
+                  title={article.title}
                   className="h-48 w-full object-cover hover:scale-105 transition-transform duration-300"
                   width={600}
                   height={400}
