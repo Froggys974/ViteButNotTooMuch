@@ -36,7 +36,7 @@ const articles = [
     excerpt:
       "Mettez-vous à jour sur les dernières évolutions du code de la route à Paris et en France.",
     image: "/img/regles-priorite-2025.webp",
-    date: "2025-03-28",
+    date: "2025-04-16",
   },
   {
     slug: "securite-pietons",
@@ -44,7 +44,7 @@ const articles = [
     excerpt:
       "Nos conseils pour protéger les piétons et partager la route en toute sécurité.",
     image: "/img/securite-pietons.webp",
-    date: "2025-03-15",
+    date: "2025-04-16",
   },
   {
     slug: "securite-routiere-paris-2025",
@@ -69,7 +69,7 @@ const articles = [
     excerpt:
       "Analyse des causes d’accidents à Paris, conseils de prévention, évolutions récentes et témoignages pour une route plus sûre en 2025.",
     image: "/img/accidents-route-paris.webp",
-    date: "2025-06-10",
+    date: "2025-06-03",
   },
   // ... Ajoute d'autres articles ici
 ];
