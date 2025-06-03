@@ -69,7 +69,7 @@ const articles = [
     excerpt:
       "Analyse des causes d’accidents à Paris, conseils de prévention, évolutions récentes et témoignages pour une route plus sûre en 2025.",
     image: "/img/accidents-route-paris.webp",
-    date: "2025-06-10",
+    date: "2025-06-03",
   },
   // ... Ajoute d'autres articles ici
 ];
