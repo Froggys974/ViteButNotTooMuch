@@ -1,5 +1,3 @@
-// app/page.tsx
-// app/page.jsx ou pages/index.js
 import Image from "next/image";
 import type { Metadata } from "next";
 
@@ -9,6 +7,11 @@ export const metadata: Metadata = {
   description:
     "ViteButNotTooMuch, blog expert sur la sécurité routière à Paris : conseils, prévention, actualités, guides pratiques et ressources pour une route plus sûre.",
   keywords: [
+    "ViteButNotTooMuch",
+    "blog sécurité routière",
+    "sécurité routière Paris",
+    "prévention routière",
+    "conseils sécurité routière",
     "sécurité routière",
     "Paris",
     "prévention",
@@ -91,7 +94,17 @@ export default function Home() {
                 strokeWidth="2"
                 viewBox="0 0 24 24"
               >
-                <path d="M13 16h-1v-4h-1m4 4v-1a4 4 0 0 0-8 0v1m8 0a4 4 0 0 0-8 0m8 0H5m14 0h-1a4 4 0 0 0-8 0H5"></path>
+                <rect
+                  x="3"
+                  y="10"
+                  width="18"
+                  height="6"
+                  rx="1"
+                  fill="currentColor"
+                />
+                <path d="M6 10 L9 6 H15 L18 10 Z" fill="currentColor" />
+                <circle cx="7" cy="17" r="2" fill="black" />
+                <circle cx="17" cy="17" r="2" fill="black" />
               </svg>
               <h3 className="text-xl font-bold mb-2">Prévention</h3>
               <p className="text-gray-600">
@@ -146,8 +159,10 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/preparer-trajet-ville.webp"
                 alt="Préparer son trajet en ville"
+                title="Préparer son trajet en ville"
                 width={800}
                 height={400}
+                loading="lazy"
               />
               <div className="p-5">
                 <a href="/blog/preparer-son-trajet-ville">
@@ -182,8 +197,10 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/regles-priorite-2025.webp"
                 alt="Règles de priorité 2025"
+                title="Règles de priorité 2025"
                 width={800}
                 height={400}
+                loading="lazy"
               />
               <div className="p-5">
                 <a href="/blog/regles-priorite-2025">
@@ -217,8 +234,10 @@ export default function Home() {
                 className="rounded-t-lg h-48 w-full object-cover"
                 src="/img/securite-pietons.webp"
                 alt="Sécurité des piétons"
+                title="Sécurité des piétons"
                 width={800}
                 height={400}
+                loading="lazy"
               />
               <div className="p-5">
                 <a href="/blog/securite-pietons">

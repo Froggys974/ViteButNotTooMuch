@@ -41,6 +41,7 @@ export default function ReglesPriorite2025() {
         <Image
           src="/img/regles-priorite-2025.webp"
           alt="Nouvelles règles de priorité en 2025"
+          title="Nouvelles règles de priorité en 2025"
           className="w-full rounded-lg mb-8"
           width={1200}
           height={630}
