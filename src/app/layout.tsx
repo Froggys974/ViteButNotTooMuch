@@ -7,23 +7,9 @@ import { Footer } from "@/components/layout/Footer";
 // Removed unused font variables
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vitebutnottoomuch.com"),
-  title: {
-    default: "ViteButNotTooMuch",
-    template: "%s | ViteButNotTooMuch",
-  },
+  title: "Vite But Not Too Much - Sécurité Routière",
   description:
-    "ViteButNotTooMuch, le blog sécurité routière à Paris : conseils, prévention, actualités et guides pratiques pour tous.",
-  keywords: [
-    "ViteButNotTooMuch",
-    "sécurité routière",
-    "Paris",
-    "prévention",
-    "blog",
-    "conseils",
-    "accidents",
-    "code de la route",
-  ],
+    "Un site éducatif et moderne dédié à la sécurité routière pour tous les usagers.",
   robots: {
     index: true,
     follow: true,
@@ -38,36 +24,21 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "ViteButNotTooMuch – Sécurité routière à Paris",
+    title: "Vite But Not Too Much",
     description:
-      "Prévenir, informer et sensibiliser sur les bonnes pratiques de sécurité routière à Paris.",
-    url: "/",
-    siteName: "ViteButNotTooMuch",
+      "Prévenir, informer et sensibiliser sur les bonnes pratiques de sécurité routière.",
+    url: "https://vitebutnottoomuch.com",
+    siteName: "Vite But Not Too Much",
     images: [
       {
-        url: "/img/og-image-home.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ViteButNotTooMuch – Sécurité routière à Paris",
+        alt: "Vite But Not Too Much",
       },
     ],
     locale: "fr_FR",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@vitebutnott2much",
-    creator: "@vitebutnott2much",
-    title: "ViteButNotTooMuch – Sécurité routière à Paris",
-    description:
-      "Conseils, prévention, actualités et guides pratiques pour une route plus sûre à Paris.",
-    images: ["/img/og-image-home.png"],
-  },
-  alternates: {
-    canonical: "/",
-    languages: {
-      "fr-FR": "/",
-    },
   },
 };
 
@@ -78,6 +49,38 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+    <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "ViteButNotTooMuch",
+              "url": "https://vitebutnottoomuch.com",
+              "alternateName": "VBNTM",
+              "publisher": {
+                "@type": "Organization",
+                "name": "ViteButNotTooMuch",
+                "alternateName": "vitebutnot2much",
+                "url": "https://vitebutnottoomuch.com",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://vitebutnottoomuch.com/img/Logo.svg",
+                  "width": 300,
+                  "height": 60
+                },
+                "sameAs": [
+                  "https://www.instagram.com/vitebutnot2much",
+                  "https://www.tiktok.com/@vitebutnott2much",
+                  "https://x.com/vitebutnot2much",
+                  "https://www.linkedin.com/in/vitebutnott2much/",
+                ]
+              }
+            }),
+          }}
+        />
+      </head>
       <body className="bg-white text-slate-800">
         <Navbar />
         {children}

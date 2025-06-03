@@ -40,7 +40,6 @@ export default function PreparerSonTrajetVille() {
         <Image
           src="/img/preparer-trajet-ville.webp"
           alt="Préparer son trajet en ville"
-          title="Préparer son trajet en ville"
           className="w-full rounded-lg mb-8"
           width={1200}
           height={630}
