@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title:
-    "Mobilités douces à Paris : comment cohabiter en sécurité ? | ViteButNotTooMuch",
+  title: "Mobilités douces à Paris : comment cohabiter en sécurité ?",
   description:
     "Découvrez comment piétons, cyclistes, trottinettes et automobilistes peuvent partager la route à Paris en toute sécurité. Conseils, réglementations et innovations pour une mobilité apaisée.",
   alternates: {

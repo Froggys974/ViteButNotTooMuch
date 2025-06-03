@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Blog – ViteButNotTooMuch | Sécurité routière à Paris",
+  title: "Blog – Sécurité routière à Paris",
   description:
-    "Retrouvez tous nos articles sur la sécurité routière, la prévention et les conseils pour circuler en toute sécurité à Paris.",
+    "ViteButNotTooMuch, le blog sécurité routière à Paris : conseils, prévention, actualités et guides pratiques pour tous.",
   alternates: {
     canonical: "https://vitebutnottoomuch.com/blog",
   },
@@ -95,7 +95,6 @@ export default function BlogPage() {
                   className="h-48 w-full object-cover hover:scale-105 transition-transform duration-300"
                   width={600}
                   height={400}
-                  loading="lazy"
                 />
               </Link>
               <div className="p-6 flex-1 flex flex-col">
